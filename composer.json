@@ -1,0 +1,36 @@
+{
+  "name" : "ghoubre/firebase-service-bundle",
+  "type" : "symfony-bundle",
+  "description" : "Symfony bundle for sending a notification firebase",
+  "homepage" : "https://github.com/TheGarious/FirebaseServiceBundle",
+  "license" : "MIT",
+  "keywords": ["symfony", "firebase", "notification"],
+  "authors" : [
+    {
+      "name" : "Gary HOUBRE",
+      "email" : "gary.houbre@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/framework-bundle": "^2.8 || ^3.0 || ^4.0",
+    "symfony/doctrine-bridge": "^2.8 || ^3.0 || ^4.0"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^2.8 || ^3.0 || ^4.0",
+    "symfony/yaml": "^2.8 || ^3.0 || ^4.0",
+    "phpunit/phpunit": "^4.8.35 || ^5.7.11 || ^6.5"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "ghoubre\\FirebaseServiceBundle\\" : ""
+    },
+    "exclude-from-classmap" : [
+      "/Tests/"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ghoubre\\FirebaseServiceBundle\\Tests\\": "/Tests/"
+    }
+  }
+}

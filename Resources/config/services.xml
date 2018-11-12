@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="ghoubre_firebase_service.firebasenotificationservice.class">ghoubre\FirebaseServiceBundle\Service\FirebaseNotificationService</parameter>
+    </parameters>
+
+    <services>
+        <service id="ghoubre.firebase_notification_service" class="%ghoubre_firebase_service.firebasenotificationservice.class%" public="true">
+            <argument/>
+            <argument/>
+            <argument/>
+        </service>
+    </services>
+</container>

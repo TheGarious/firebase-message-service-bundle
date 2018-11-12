@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="./Tests/bootstrap.php" colors="true">
+
+    <testsuites>
+        <testsuite name="FirebaseServiceBundle test suite">
+            <directory suffix="Test.php">./Tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory>./</directory>
+            <exclude>
+                <directory>./Tests</directory>
+                <directory>./vendor</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-clover" target="test-result/coverage.xml"/>
+        <log type="coverage-html" target="test-result/coverage-html"/>
+        <log type="junit" target="test-result/junit.xml"/>
+    </logging>
+</phpunit>

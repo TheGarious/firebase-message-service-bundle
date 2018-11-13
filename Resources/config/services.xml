@@ -5,7 +5,7 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="ghoubre_firebase_service.firebasenotificationservice.class">ghoubre\FirebaseServiceBundle\Service\FirebaseNotificationService</parameter>
+        <parameter key="ghoubre_firebase_service.firebasenotificationservice.class">Ghoubre\FirebaseServiceBundle\Service\FirebaseNotificationService</parameter>
     </parameters>
 
     <services>

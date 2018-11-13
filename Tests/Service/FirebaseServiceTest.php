@@ -1,8 +1,8 @@
 <?php
 
-namespace ghoubre\FirebaseServiceBundle\Tests\Service;
+namespace Ghoubre\FirebaseServiceBundle\Tests\Service;
 
-use ghoubre\FirebaseServiceBundle\Service\FirebaseNotificationService;
+use Ghoubre\FirebaseServiceBundle\Service\FirebaseNotificationService;
 use Symfony\Bundle\FrameworkBundle\Tests\TestCase;
 
 class FirebaseServiceTest extends TestCase

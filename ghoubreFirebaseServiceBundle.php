@@ -1,14 +1,14 @@
 <?php
 
-namespace ghoubre\FirebaseServiceBundle;
+namespace Ghoubre\FirebaseServiceBundle;
 
-use ghoubre\FirebaseServiceBundle\DependencyInjection\ghoubreFirebaseServiceExtension;
+use Ghoubre\FirebaseServiceBundle\DependencyInjection\GhoubreFirebaseServiceExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ghoubreFirebaseServiceBundle extends Bundle
+class GhoubreFirebaseServiceBundle extends Bundle
 {
     public function getContainerExtension()
     {
-        return new ghoubreFirebaseServiceExtension();
+        return new GhoubreFirebaseServiceExtension();
     }
 }

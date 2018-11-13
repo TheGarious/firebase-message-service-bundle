@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace ghoubre\FirebaseServiceBundle\Service;
+namespace Ghoubre\FirebaseServiceBundle\Service;
 
 use Exception;
 

@@ -22,7 +22,7 @@
   },
   "autoload" : {
     "psr-4" : {
-      "ghoubre\\FirebaseServiceBundle\\" : ""
+      "Ghoubre\\FirebaseServiceBundle\\" : ""
     },
     "exclude-from-classmap" : [
       "/Tests/"
@@ -30,7 +30,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "ghoubre\\FirebaseServiceBundle\\Tests\\": "/Tests/"
+      "Ghoubre\\FirebaseServiceBundle\\Tests\\": "/Tests/"
     }
   }
 }

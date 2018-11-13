@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace ghoubre\FirebaseServiceBundle\Model;
+namespace Ghoubre\FirebaseServiceBundle\Model;
 
 use Doctrine\ORM\Mapping as ORM;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace ghoubre\FirebaseServiceBundle\Tests\Model;
+namespace Ghoubre\FirebaseServiceBundle\Tests\Model;
 
-use ghoubre\FirebaseServiceBundle\Model\FirebaseServiceLog;
+use Ghoubre\FirebaseServiceBundle\Model\FirebaseServiceLog;
 
 use Symfony\Bundle\FrameworkBundle\Tests\TestCase;
 

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace ghoubre\FirebaseServiceBundle\DependencyInjection;
+namespace Ghoubre\FirebaseServiceBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

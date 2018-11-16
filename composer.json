@@ -1,7 +1,7 @@
 {
   "name" : "ghoubre/firebase-service-bundle",
   "type" : "symfony-bundle",
-  "description" : "Symfony bundle for sending a notification firebase",
+  "description" : "Bundle for firebase service ( sending notification ) ",
   "homepage" : "https://github.com/TheGarious/FirebaseServiceBundle",
   "license" : "MIT",
   "keywords": ["symfony", "firebase", "notification"],

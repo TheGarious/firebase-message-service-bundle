@@ -5,6 +5,8 @@ cache:
         - $HOME/.composer/cache/files
         - $HOME/symfony-bridge/.phpunit
 
+warnings_are_errors: false
+
 php:
     - 5.5
     - 5.6
